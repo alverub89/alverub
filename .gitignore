@@ -1,0 +1,14 @@
+# Local Netlify folder
+.netlify
+
+# Dependency and build directories
+node_modules/
+dist/
+.env
+
+# Local agent caches and configurations
+.agent/
+.agents/
+.claude/
+_bmad/
+_bmad-output/

@@ -1,0 +1,18 @@
+{
+  "name": "decidaja-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DecidiJá monorepo for movie choice decision wheel",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "install-all": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
